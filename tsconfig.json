@@ -12,9 +12,10 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve"
   },
