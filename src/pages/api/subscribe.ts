@@ -12,15 +12,16 @@ type User = {
     stripe_customer_id: string;
   }
 }
+
 const subscription = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
-    const session = await getSession({ req });
+    const { user: { email, name }} = await getSession({ req });
 
     const user = await fauna.query<User>(
       q.Get(
         q.Match(
           q.Index('user_by_email'),
-          q.Casefold(session.user.email)
+          q.Casefold(email)
         )
       )
     )
@@ -29,7 +30,8 @@ const subscription = async (req: NextApiRequest, res: NextApiResponse) => {
 
     if (!customerId) {
       const stripeCustomer = await stripe.customers.create({
-        email: session.user.email,
+        email: email,
+        name: name
         //metadata
       })
 
