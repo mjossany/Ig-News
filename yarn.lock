@@ -1065,6 +1065,11 @@
   dependencies:
     "glob" "7.1.7"
 
+"@next/swc-darwin-arm64@12.1.6":
+  "integrity" "sha512-P0EXU12BMSdNj1F7vdkP/VrYDuCNwBExtRPDYawgSUakzi6qP0iKJpya2BuLvNzXx+XPU49GFuDC5X+SvY0mOw=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.1.6.tgz"
+  "version" "12.1.6"
+
 "@next/swc-darwin-x64@12.1.6":
   "integrity" "sha512-9FptMnbgHJK3dRDzfTpexs9S2hGpzOQxSQbe8omz6Pcl7rnEp9x4uSEKY51ho85JCjL4d0tDLBcXEJZKKLzxNg=="
   "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.1.6.tgz"
@@ -1119,6 +1124,11 @@
   dependencies:
     "cross-fetch" "^3.0.6"
 
+"@prismicio/helpers@^1.0.4":
+  "integrity" "sha512-YsOfGgauGeTC5Co8zXvz278Lc/V3fyNaAPTs/y4gGrLmLhYa/eT7+USYvDB9RhKEPhYFnUqBiGWa+3l7BksYOQ=="
+  "resolved" "https://registry.npmjs.org/@prismicio/helpers/-/helpers-1.2.0.tgz"
+  "version" "1.2.0"
+
 "@prismicio/helpers@^2.3.1":
   "integrity" "sha512-J37WpIUINZ0wT3a2h4fc9ATZqjmQjziPwjETG7QLYEVULpQXsWbgM+C6aoOqdlRwCbZ3Wfhel26+++ZaqOX/0Q=="
   "resolved" "https://registry.npmjs.org/@prismicio/helpers/-/helpers-2.3.1.tgz"
@@ -1136,6 +1146,11 @@
   dependencies:
     "@prismicio/helpers" "^2.3.1"
     "@prismicio/richtext" "^2.0.1"
+
+"@prismicio/richtext@^1.1.0":
+  "integrity" "sha512-925JuFiZiIkwu9jmlR9O/U8xCSZk/Y6BQDXKpavoVsKo+n90ml1hGdtWkglIupX+ITQO1ZINyDgUgiY1oG9dsA=="
+  "resolved" "https://registry.npmjs.org/@prismicio/richtext/-/richtext-1.1.0.tgz"
+  "version" "1.1.0"
 
 "@prismicio/richtext@^2.0.1":
   "integrity" "sha512-uxJaR3soPr356stoLEIcgn+68lfolwxRmlDLTF4gYDcF30rB0YFLPcdRJmhtkU6LGZXIhwUUmwMWXkhT+DV3hA=="
@@ -1382,6 +1397,11 @@
   "integrity" "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA=="
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
   "version" "4.0.0"
+
+"@types/prismic-dom@^2.1.1":
+  "integrity" "sha512-gZSFBARo4vFnpclOq2DzU9t4wikVsZ0+lL4hXaRoeUJinhGSK+nMERcZJgXglK/+QRcw3HBPbGJzgzTqQGSuNw=="
+  "resolved" "https://registry.npmjs.org/@types/prismic-dom/-/prismic-dom-2.1.1.tgz"
+  "version" "2.1.1"
 
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
@@ -2804,7 +2824,7 @@
   "resolved" "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
   "version" "3.1.1"
 
-"escape-html@^1.0.3", "escape-html@~1.0.3":
+"escape-html@^1.0.3", "escape-html@~1.0.3", "escape-html@1.0.3":
   "integrity" "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow=="
   "resolved" "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
   "version" "1.0.3"
@@ -5271,6 +5291,15 @@
   "integrity" "sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U= sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew=="
   "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-3.8.0.tgz"
   "version" "3.8.0"
+
+"prismic-dom@^2.2.7":
+  "integrity" "sha512-4rJWzBqq/6h15giAzB6L8+eaWLQJrQcM4EAicmtw3mI8DhussbJOgheTeFtTCgvO7e5QEjZA0he5gEbQYfKGmg=="
+  "resolved" "https://registry.npmjs.org/prismic-dom/-/prismic-dom-2.2.7.tgz"
+  "version" "2.2.7"
+  dependencies:
+    "@prismicio/helpers" "^1.0.4"
+    "@prismicio/richtext" "^1.1.0"
+    "escape-html" "1.0.3"
 
 "probe-image-size@^7.2.2":
   "integrity" "sha512-HubhG4Rb2UH8YtV4ba0Vp5bQ7L78RTONYu/ujmCu5nBI8wGv24s4E9xSKBi0N1MowRpxk76pFCpJtW0KPzOK0w=="
