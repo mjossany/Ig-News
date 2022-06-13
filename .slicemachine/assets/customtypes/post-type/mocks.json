@@ -1,13 +1,19 @@
 {
-  "id": "426fcd0c-d959-4874-ad2d-c46cbbf03b89",
-  "uid": "ipsum-tempore-quas",
+  "id": "6a531010-b34e-4ef8-8049-aa193b2efcfe",
+  "uid": "aliquam-laboriosam-qui",
   "type": "post-type",
   "data": {
-    "Title": "integrate impactful networks",
-    "Content": [
+    "richtext": [
       {
         "type": "paragraph",
-        "text": "Voluptate aliqua consequat aute aliquip cupidatat est excepteur. Officia ullamco reprehenderit exercitation non ipsum sint amet.",
+        "text": "Do irure tempor id occaecat cupidatat elit culpa eiusmod enim. Proident deserunt do dolor irure in irure veniam qui cupidatat dolor sit laborum. Cupidatat consequat officia eiusmod ea dolore qui pariatur duis id minim duis ex Lorem consectetur sunt.",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Irure id deserunt deserunt adipisicing laborum elit sint ut. Sunt laboris sunt nulla Lorem ex do consectetur ad duis do ad.",
         "spans": []
       }
     ]
