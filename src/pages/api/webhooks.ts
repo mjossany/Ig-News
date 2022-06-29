@@ -41,7 +41,7 @@ const webhooks = async (req: NextApiRequest, res: NextApiResponse) => {
       return res.status(400).send(`Webhook error: ${err.message}`)
     }
 
-    const { type }= event;
+    const { type } = event;
 
     if (relevantEvents.has(type)) {
       try {
